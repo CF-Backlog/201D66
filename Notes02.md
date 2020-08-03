@@ -8,7 +8,17 @@
 <h5></h5>
 <h6></h6>
 
-> <!-- open tag(<>) close tag(</>) -->
+> open tag(<>) close tag(</>) 
+
+inline notation vsCode:
+
+cmd + / to auto generate notation sintax 
+
+> Markdown: < !--  -- >
+> Html: < !--  -- >
+> CSS: / *  * /
+> JS: //
+>watch for spacing
 
 
 > Paragraph --
@@ -21,4 +31,6 @@
 > Harry woke with a start. His aunt rapped on the door again.< /p >
 
 -- touch 'file name' command.
+
+
 
