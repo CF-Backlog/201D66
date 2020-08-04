@@ -99,3 +99,7 @@ h1 {
 > declarations: properties of the element that you want to change and the values of thsoe properties
 
 > CSS rules should be in a seperate document 
+
+# JS
+
+ 

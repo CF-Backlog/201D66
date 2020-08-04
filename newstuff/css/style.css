@@ -1,0 +1,16 @@
+body {
+	background-color: aquamarine;
+}
+
+ul {
+	background-color: brown;
+}
+
+.second {
+ size: 2em;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#third {
+	font-size: xx-large;
+}

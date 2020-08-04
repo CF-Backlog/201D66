@@ -1,0 +1,22 @@
+.su-box-title {
+  display: block;
+  padding: .5em 1em;
+  font-weight: 700;
+  font-size: 1.1em;
+  background-color: #4fff59;
+  color: #FFFFFF;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-color: #3fcc47;
+  border-radius: 3px;
+}
+
+.su-box-content.green {
+  background-color: #FFFFFF;
+  color: #444;
+  padding: 1em;
+  border-color: #3fcc47;
+  border-radius: 3px;
+}
+/* content box white background and title */
+
