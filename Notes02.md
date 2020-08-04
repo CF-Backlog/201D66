@@ -36,5 +36,38 @@ cmd + / to auto generate notation sintax
 
 -- touch 'file name' command.
 
+> <b>Type in bold < b > < /b ></b>
 
+> <i>Type italics < b > < /b ></i>
 
+> <sup>superscript < sup > < /sup ></sup>
+
+> <sub>subscript < sub > < /sub > </sub>
+
+> line breaks : < br / >
+
+> Horizontal Rule : < hr / >
+
+> < strong > < /strong > inserted inside < P > tag around a word that needs emphasis see bold.
+
+> < em > < /em > same, italics
+
+> < blockquote > < /blockquote > quotes that take up whole paragraph wraping < p > tag too
+
+> < q > shorter quotes inside paragraph
+
+> < abbr > 
+
+> < cite >
+
+> < dfn >
+
+> < address > used for contact info author
+
+> < ins > inserted
+
+> < del > deleted
+
+> < s > scratch it out 
+
+> < >
