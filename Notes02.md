@@ -38,7 +38,7 @@ cmd + / to auto generate notation sintax
 
 > <b>Type in bold < b > < /b ></b>
 
-> <i>Type italics < b > < /b ></i>
+> <i>Type italics < i > < /i ></i>
 
 > <sup>superscript < sup > < /sup ></sup>
 
@@ -70,4 +70,23 @@ cmd + / to auto generate notation sintax
 
 > < s > scratch it out 
 
-> < >
+> CSS:
+
+-- Rules, Properties, Values
+
+'selector' { 'declaration' }
+
+** external CSS < link href= 'css/ style.css' type='text/css' rel='stylesheet' / > 
+
+** internal or inline  
+
+< style type='text/css' > 
+
+body { 
+  font-family: arial;
+  background-color: rgb(colorcode look for hex converter);}
+
+h1 {
+  color: rgb(color hexcode convert)
+}
+
