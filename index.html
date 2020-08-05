@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>Tabby Tab</title>
+    <h1>Class 1 Lab</h1>
     <style>
       h1 {
         color: blueviolet;
@@ -18,11 +19,13 @@
     <main>
       <section>
         
-        <h1 style= 'color: brown;'>Class One Lab</h1>
+        <h1 style= 'color: brown;'> Droogies</h1>
 
         <p style="color: burlywood;">I like twilight...thats not a question</p>
 
         <p style="color: chartreuse;">Tis' but a fleshwound! is a quote from?</p>
+
+        <p style="font-size: x-large;"> Just start typing Ipsom Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sed culpa temporibus aliquid debitis quos pariatur officiis recusandae obcaecati nesciunt minima excepturi sit in, molestias cumque illo neque, aperiam autem. and it autopopulates</p>
 
         <ul>
           <li>unordered list yall</li>
@@ -45,16 +48,24 @@
       <script>
         
         var userName = prompt('Who are you?');
-        console.log('user:' + userName);
         alert('What\'s good' + ',' + ' ' + userName + '!?');
-
-        var greetingUser = prompt('How\'s your day?');
+        console.log('user:' + userName);
+        
+        var greetingUser = prompt('So' + ' ' + userName + ' ' + 'How\'s your day?');
+        alert('That\'s nice to hear.' + ' ' + userName);
         console.log(greetingUser);
-        alert('That\'s nice to hear.');
-
+        
         var youLikeTwighlight = prompt('You Like Twilight (y/n) !?');
-        // if()
-
+        
+        if(youLikeTwighlight === 'y'){
+          alert('me too! twilight\'s my jam!!')
+        } else {
+          alert('that\'s cool too i guess')
+        }
+        console.log(youLikeTwighlight);
+        
+        var pancakes = prompt('Ever wonder why pancake mix is the same stuff you use for waffles?');
+        alert('intriguing maybe?');
 
 
       </script>
