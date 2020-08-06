@@ -4,13 +4,13 @@
 
 var usernaamAntwoord;
 
-function wieBenJe(){
+function whoDis(){
   usernaamAntwoord = prompt('How\'s it going? What\'s your name?'); 
   console.log('usernaamAntwoord :' + usernaamAntwoord);
 
   alert('Cool Beans, ' + usernaamAntwoord + ' hope you\'re having a good day');
 }
-wieBenJe();
+whoDis();
 
 
 function waarVanDan(){
