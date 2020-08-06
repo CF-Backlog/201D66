@@ -1,19 +1,19 @@
 'use strict'
 
-console.log(greetings)
+// console.log(greetings)
 
 var usernaamAntwoord;
 
-function wieBenJe(){
+function whoDis(){
   usernaamAntwoord = prompt('How\'s it going? What\'s your name?'); 
   console.log('usernaamAntwoord :' + usernaamAntwoord);
 
   alert('Cool Beans, ' + usernaamAntwoord + ' hope you\'re having a good day');
 }
-wieBenJe();
+whoDis();
 
 
-function waarVanDan(){
+function whereFrom(){
   var seattleOrigin = prompt('Am I from around here (Y/N)?');
   console.log('seattleOrigin:' + seattleOrigin);
 
@@ -24,7 +24,7 @@ function waarVanDan(){
   } 
 }
 
-waarVanDan();
+whereFrom();
 
 function film(){
   var filmLover = prompt('Do I like movies (y/n)?');
@@ -83,21 +83,25 @@ function howManyPetsQuestion(){
 howManyPetsQuestion();
 
 function tooManyColors(){ 
-  
+  // var flag= false;
 for (var i=0; i<6; i++){
 
-    var favColorAnswer = prompt('What is Andre\'s favorite color?');
+    var favColorAnswer = prompt('I love 3 colors, guess one.');
 
     var favColorArray = ['purple', 'green', 'neon pink', 'orange', 'navy blue'];
 
     if(favColorAnswer === favColorArray[0] || favColorAnswer === favColorArray[1] ||favColorAnswer === favColorArray[2]){
       alert('You got it!');
-    } else {
+      // flag = true;
+      break;
+
+    } 
+    else{
       alert('A Swing and A Miss.');
     } 
     alert('possible answers included purple, green, neon pink, orange, navy blue');
 }
-
+}
 tooManyColors();
 
 function danceDance(){
@@ -111,6 +115,4 @@ function danceDance(){
 }
 danceDance();
 
-prompt('Thank\'s for stopping by,' + usernaamAntwoord);
-
-} 
+alert('Thank\'s for stopping by,' + usernaamAntwoord);
