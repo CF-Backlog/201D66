@@ -13,7 +13,7 @@ function whoDis(){
 whoDis();
 
 
-function waarVanDan(){
+function whereFrom(){
   var seattleOrigin = prompt('Am I from around here (Y/N)?');
   console.log('seattleOrigin:' + seattleOrigin);
 
@@ -24,7 +24,7 @@ function waarVanDan(){
   } 
 }
 
-waarVanDan();
+whereFrom();
 
 function film(){
   var filmLover = prompt('Do I like movies (y/n)?');
