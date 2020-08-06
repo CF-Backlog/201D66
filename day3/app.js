@@ -23,6 +23,7 @@ function waarVanDan(){
     alert('Appears Legitimate ' + usernaamAntwoord);
   } 
 }
+
 waarVanDan();
 
 function film(){
@@ -106,4 +107,6 @@ function danceDance(){
 }
 danceDance();
 
-prompt('Thank\'s for stopping by,' + usernaamAntwoord); 
+prompt('Thank\'s for stopping by,' + usernaamAntwoord);
+
+} 
