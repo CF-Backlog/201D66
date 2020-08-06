@@ -1,0 +1,53 @@
+
+body{
+  border: 3px solid bisque;
+  background-color: #705591;
+  text-align: center;
+}
+
+img{
+  width: 50%;
+  padding: 10px;
+  opacity: 35%;
+  margin: 5px;
+  /* padding-bottom: 100px; */
+  border: solid black;
+}
+
+nav{
+  border: 3px solid beige;
+  margin: 60px;
+}
+
+section{
+  border: 3px solid bisque;
+}
+
+footer{
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#toplist{
+  background-origin: padding-box;
+}
+
+#topPart{
+  background-image: src="Doom Mask.jpg";
+  margin: 10px;
+}
+
+#section2{
+  margin: 10px;
+}
+
+#nav2{
+  margin: 10px;
+}
+
+#resume{
+  /* float: left; */
+  text-align: center;
+  padding: 10px;
+  margin: 50px 250px 50px 250px;
+}
