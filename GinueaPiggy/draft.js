@@ -1,4 +1,4 @@
-'use strict''
+'use strict'
 
 // if(answer.toLowercase() === 'yes' || answer.toLowercase() === 'y'){
 //   return 'yes';

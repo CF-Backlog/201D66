@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-// console.log(..greetings)
+console.log(greetings)
 
 var usernaamAntwoord;
 
@@ -83,7 +83,8 @@ function howManyPetsQuestion(){
 howManyPetsQuestion();
 
 function tooManyColors(){ 
-  for (var i=0; i<6; i++){
+  
+for (var i=0; i<6; i++){
 
     var favColorAnswer = prompt('What is Andre\'s favorite color?');
 
@@ -97,9 +98,12 @@ function tooManyColors(){
     alert('possible answers included purple, green, neon pink, orange, navy blue');
 }
 
+tooManyColors();
+
 function danceDance(){
+  
   var doIDance = prompt('Doe\'s he dance (y/n)?');
-  if (doIDance.toLowerCase() === 'y'){
+    if (doIDance.toLowerCase() === 'y'){
     alert ('I only do that to make my wife laugh..');
   } else {
     alert('only to make the wife laugh');

@@ -29,3 +29,6 @@ Calling "invoking"
 In an object variables are known as properties of the object, functions are methods of objects.
 
 Object are series of variables and functions that represent something. 
+
+> input of a function reffered  to as argument
+
