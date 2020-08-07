@@ -4,8 +4,11 @@
 
 var usernaamAntwoord;
 
+<<<<<<< HEAD
 var addScore = 0;            
 
+=======
+>>>>>>> af9253c9072f1ad840d1281167eb9ac79bc917a8
 function whoDis(){
   usernaamAntwoord = prompt('How\'s it going? What\'s your name?'); 
   console.log('usernaamAntwoord :' + usernaamAntwoord);
@@ -14,8 +17,13 @@ function whoDis(){
   addScore++;
 }
 whoDis();
+<<<<<<< HEAD
 
     
+=======
+
+
+>>>>>>> af9253c9072f1ad840d1281167eb9ac79bc917a8
 function whereFrom(){
   var seattleOrigin = prompt('Am I from around here (Y/N)?');
   console.log('seattleOrigin:' + seattleOrigin);
@@ -27,6 +35,10 @@ function whereFrom(){
     addScore++;
   } 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> af9253c9072f1ad840d1281167eb9ac79bc917a8
 whereFrom();
 
 function film(){
@@ -99,7 +111,10 @@ for (var i=0; i<6; i++){
 
     if(favColorAnswer === favColorArray[0] || favColorAnswer === favColorArray[1] ||favColorAnswer === favColorArray[2]){
       alert('You got it!');
+<<<<<<< HEAD
       addScore++;
+=======
+>>>>>>> af9253c9072f1ad840d1281167eb9ac79bc917a8
       // flag = true;
       break;
 
@@ -110,7 +125,10 @@ for (var i=0; i<6; i++){
     alert('possible answers included purple, green, neon pink, orange, navy blue');
 }
 }
+<<<<<<< HEAD
 // Q6 and Q7 were merged here accidentally
+=======
+>>>>>>> af9253c9072f1ad840d1281167eb9ac79bc917a8
 tooManyColors();
 
 function danceDance(){
@@ -126,5 +144,9 @@ function danceDance(){
 }
 danceDance();
 
+<<<<<<< HEAD
 alert('Thank\'s for stopping by,' + usernaamAntwoord + ' here\'s a bunch of points cuz you\'re a star. ' + addScore); 
 // Taylor helped me fix this and understand what went wrong originally. 
+=======
+alert('Thank\'s for stopping by,' + usernaamAntwoord);
+>>>>>>> af9253c9072f1ad840d1281167eb9ac79bc917a8
