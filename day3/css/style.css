@@ -1,17 +1,17 @@
 
 body{
   border: 3px solid bisque;
-  background-color: #705591;
+  background-color: #ba9fdb;
   text-align: center;
   /* font-style: italic; */
-  color: yellowgreen;
-  font: bold;
+  color: rgb(7, 10, 1);
+  font-size: larger;
 }
 
 img{
   width: 100%;
   /* padding: 10px; */
-  opacity: 25%;
+  opacity: 15%;
   margin: 5px;
   /* padding-bottom: 100px; */
   /* border: solid black; */
