@@ -1,0 +1,7 @@
+# Notes 11
+
+> Search engine optimization helps find your sites. Analytics tools such as Google Analytics allow you to see how many people visit your site, how they find it, and what they do when they get there. To put your site on the web, you will need to obtain a domain name and web hosting. FTP programs allow you to transfer files from your local computer to your web server. Many companies provide platforms for blogging, email newsletters, e-commerce and other popular tools (to save you writing them from scratch).
+
+> You can specify the dimensions of images in CSS. This is very helpful when you use the same sized images on several pages of your site. Images can be aligned both horizontally and vertically in CSS. You can use a background image behind the box created by any element on a page. Background images can appear once or be repeated across the background of the box. You can create image rollover effects by moving the background position of the image. Reduce the number of images your browser has to load by create image sprites.
+
+> Flash allows you to add animations, video and audio. Not supported on iPhone or iPad. HTML5 introduces new < video > and < audio > elements for adding video and audio to web pages, but are only supported in latest browsers. Browsers that support the HTML5 elements dont all support the same video and audio formats, so you should supply your files in different formats.
